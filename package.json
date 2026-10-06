@@ -1,0 +1,19 @@
+{
+  "name": "simple-nodejs-api",
+  "version": "1.0.0",
+  "description": "mi primer api desarrollada con nodejs",
+  "license": "ISC",
+  "author": "saul agustin",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
